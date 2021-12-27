@@ -5,7 +5,6 @@ This is A Flutter template for Mobile Development's class.
 
 ## Screenshots
 <img src="https://github.com/kondori-reza1990/note_project/blob/master/screenshots/screen1.png?raw=true" width="45%"></img> <img src="https://github.com/kondori-reza1990/note_project/blob/master/screenshots/screen2.png?raw=true" width="45%"></img>
-![screen1](https://github.com/kondori-reza1990/note_project/blob/master/screenshots/screen1.png?raw=true) ![screen2](https://github.com/kondori-reza1990/note_project/blob/master/screenshots/screen2.png?raw=true)
 
 ## Getting Started
 
