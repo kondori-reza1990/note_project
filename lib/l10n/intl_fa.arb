@@ -1,0 +1,13 @@
+{
+  "language": "فارسی",
+  "app_name": "یادداشت",
+  "add_note": "یادداشت جدید",
+  "edit_note": "ویرایش یادداشت",
+  "delete_note": "حذف یادداشت",
+  "note_date": "تاریخ یادداشت",
+  "note_title": "عنوان یادداشت",
+  "note_content": "محتویات یادداشت",
+  "dark_mode": "حالت تاریک",
+  "light_mode": "حالت روشن",
+  "app_language": "زبان برنامه"
+}

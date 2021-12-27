@@ -1,0 +1,13 @@
+{
+  "language": "العربية",
+  "app_name": "ملحوظات",
+  "add_note": "أضف ملاحظة جديدة",
+  "edit_note": "تحرير الملاحظة",
+  "delete_note": "حذف الملاحظة",
+  "note_date": "تاريخ الملاحظة",
+  "note_title": "عنوان الملاحظة",
+  "note_content": "محتوى الملاحظة",
+  "dark_mode": "وضع الظلام",
+  "light_mode": "وضع الضوء",
+  "app_language": "لغة التطبيق"
+}

@@ -1,0 +1,13 @@
+{
+  "language": "English",
+  "app_name": "Notes",
+  "add_note": "Add new note",
+  "edit_note": "Edit note",
+  "delete_note": "Delete note",
+  "note_date": "Note's date",
+  "note_title": "Note's title",
+  "note_content": "Note's Content",
+  "dark_mode": "Dark Mode",
+  "light_mode": "Light Mode",
+  "app_language": "Language"
+}
