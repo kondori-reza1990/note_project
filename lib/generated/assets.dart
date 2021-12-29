@@ -5,6 +5,7 @@ class Assets {
   static const String fontsBarcelona = 'assets/fonts/Barcelona.ttf';
   static const String fontsIranSans = 'assets/fonts/IranSans.ttf';
   static const String fontsTaha = 'assets/fonts/Taha.ttf';
+  static const String imagesAboutme = 'assets/images/aboutme.json';
   static const String imagesLocation = 'assets/images/location.json';
   static const String imagesLogo = 'assets/images/logo.png';
   static const String imagesMoon = 'assets/images/moon.json';

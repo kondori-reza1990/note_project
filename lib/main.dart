@@ -25,10 +25,11 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
             create: (BuildContext context) => LanguageChangeProvider()),
-        ChangeNotifierProvider(create: (BuildContext context) => HiveDataBase())
+        ChangeNotifierProvider<HiveDataBase>(
+            create: (context) => HiveDataBase()),
       ],
-      child: Builder(
-        builder: (context) => MaterialApp(
+      child: Consumer<LanguageChangeProvider>(
+        builder: (context, value, child) => MaterialApp(
           debugShowCheckedModeBanner: false,
           locale: Provider.of<LanguageChangeProvider>(context, listen: true)
               .currentLocale,

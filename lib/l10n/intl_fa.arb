@@ -9,5 +9,10 @@
   "note_content": "محتویات یادداشت",
   "dark_mode": "حالت تاریک",
   "light_mode": "حالت روشن",
-  "app_language": "زبان برنامه"
+  "app_language": "زبان برنامه",
+  "about_title": "درباره ما",
+  "about_text": "برنامه نویس:\\nویدارایانه - 09304898743",
+  "ok_dialog": "باشه",
+  "cancel_dialog": "بی خیال",
+  "delete_note_content": "آیا از حذف یادداشت مطمئن هستید؟"
 }

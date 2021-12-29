@@ -22,16 +22,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about_text": MessageLookupByLibrary.simpleMessage(
+            "برنامه نویس:\\nویدارایانه - 09304898743"),
+        "about_title": MessageLookupByLibrary.simpleMessage("درباره ما"),
         "add_note": MessageLookupByLibrary.simpleMessage("یادداشت جدید"),
         "app_language": MessageLookupByLibrary.simpleMessage("زبان برنامه"),
         "app_name": MessageLookupByLibrary.simpleMessage("یادداشت"),
+        "cancel_dialog": MessageLookupByLibrary.simpleMessage("بی خیال"),
         "dark_mode": MessageLookupByLibrary.simpleMessage("حالت تاریک"),
         "delete_note": MessageLookupByLibrary.simpleMessage("حذف یادداشت"),
+        "delete_note_content": MessageLookupByLibrary.simpleMessage(
+            "آیا از حذف یادداشت مطمئن هستید؟"),
         "edit_note": MessageLookupByLibrary.simpleMessage("ویرایش یادداشت"),
         "language": MessageLookupByLibrary.simpleMessage("فارسی"),
         "light_mode": MessageLookupByLibrary.simpleMessage("حالت روشن"),
         "note_content": MessageLookupByLibrary.simpleMessage("محتویات یادداشت"),
         "note_date": MessageLookupByLibrary.simpleMessage("تاریخ یادداشت"),
-        "note_title": MessageLookupByLibrary.simpleMessage("عنوان یادداشت")
+        "note_title": MessageLookupByLibrary.simpleMessage("عنوان یادداشت"),
+        "ok_dialog": MessageLookupByLibrary.simpleMessage("باشه")
       };
 }

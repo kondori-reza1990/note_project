@@ -159,6 +159,56 @@ class S {
       args: [],
     );
   }
+
+  /// `About us`
+  String get about_title {
+    return Intl.message(
+      'About us',
+      name: 'about_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Developer:\nVida-Rayane.ir - 09304898743`
+  String get about_text {
+    return Intl.message(
+      'Developer:\nVida-Rayane.ir - 09304898743',
+      name: 'about_text',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `OK`
+  String get ok_dialog {
+    return Intl.message(
+      'OK',
+      name: 'ok_dialog',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get cancel_dialog {
+    return Intl.message(
+      'Cancel',
+      name: 'cancel_dialog',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Are you sure you want to delete the note?`
+  String get delete_note_content {
+    return Intl.message(
+      'Are you sure you want to delete the note?',
+      name: 'delete_note_content',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

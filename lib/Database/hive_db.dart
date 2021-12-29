@@ -1,21 +1,23 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:note/CustomWidgets/note.dart';
 import 'package:path_provider/path_provider.dart';
 
 class HiveDataBase with ChangeNotifier {
-  static const String noteDb = "Note";
+  static const String noteDb = "note";
+  late Directory documentsDirectory;
+
   HiveDataBase();
 
   initialize() async {
-    Directory documentsDirectory;
     if (Platform.isAndroid || Platform.isIOS) {
       documentsDirectory = (await getExternalStorageDirectory())!;
     } else {
       documentsDirectory = await getApplicationSupportDirectory();
     }
     Hive.init(documentsDirectory.path);
+    //await Hive.initFlutter(documentsDirectory.path);
     Hive.registerAdapter(NoteAdapter());
   }
 

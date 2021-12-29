@@ -9,5 +9,10 @@
   "note_content": "محتوى الملاحظة",
   "dark_mode": "وضع الظلام",
   "light_mode": "وضع الضوء",
-  "app_language": "لغة التطبيق"
+  "app_language": "لغة التطبيق",
+  "about_title": "معلومات عنا",
+  "about_text": "مطور:\\nویدارایانه - 09304898743",
+  "ok_dialog": "موافق",
+  "cancel_dialog": "إلغاء",
+  "delete_note_content": "هل أنت متأكد أنك تريد حذف الملاحظة؟"
 }

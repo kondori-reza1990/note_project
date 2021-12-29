@@ -22,16 +22,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about_text": MessageLookupByLibrary.simpleMessage(
+            "Developer:\nVida-Rayane.ir - 09304898743"),
+        "about_title": MessageLookupByLibrary.simpleMessage("About us"),
         "add_note": MessageLookupByLibrary.simpleMessage("Add new note"),
         "app_language": MessageLookupByLibrary.simpleMessage("Language"),
         "app_name": MessageLookupByLibrary.simpleMessage("Notes"),
+        "cancel_dialog": MessageLookupByLibrary.simpleMessage("Cancel"),
         "dark_mode": MessageLookupByLibrary.simpleMessage("Dark Mode"),
         "delete_note": MessageLookupByLibrary.simpleMessage("Delete note"),
+        "delete_note_content": MessageLookupByLibrary.simpleMessage(
+            "Are you sure you want to delete the note?"),
         "edit_note": MessageLookupByLibrary.simpleMessage("Edit note"),
         "language": MessageLookupByLibrary.simpleMessage("English"),
         "light_mode": MessageLookupByLibrary.simpleMessage("Light Mode"),
         "note_content": MessageLookupByLibrary.simpleMessage("Note\'s Content"),
         "note_date": MessageLookupByLibrary.simpleMessage("Note\'s date"),
-        "note_title": MessageLookupByLibrary.simpleMessage("Note\'s title")
+        "note_title": MessageLookupByLibrary.simpleMessage("Note\'s title"),
+        "ok_dialog": MessageLookupByLibrary.simpleMessage("OK")
       };
 }

@@ -9,5 +9,10 @@
   "note_content": "Note's Content",
   "dark_mode": "Dark Mode",
   "light_mode": "Light Mode",
-  "app_language": "Language"
+  "app_language": "Language",
+  "about_title": "About us",
+  "about_text": "Developer:\nVida-Rayane.ir - 09304898743",
+  "ok_dialog": "OK",
+  "cancel_dialog": "Cancel",
+  "delete_note_content": "Are you sure you want to delete the note?"
 }

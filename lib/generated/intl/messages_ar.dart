@@ -22,16 +22,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about_text": MessageLookupByLibrary.simpleMessage(
+            "مطور:\\nویدارایانه - 09304898743"),
+        "about_title": MessageLookupByLibrary.simpleMessage("معلومات عنا"),
         "add_note": MessageLookupByLibrary.simpleMessage("أضف ملاحظة جديدة"),
         "app_language": MessageLookupByLibrary.simpleMessage("لغة التطبيق"),
         "app_name": MessageLookupByLibrary.simpleMessage("ملحوظات"),
+        "cancel_dialog": MessageLookupByLibrary.simpleMessage("إلغاء"),
         "dark_mode": MessageLookupByLibrary.simpleMessage("وضع الظلام"),
         "delete_note": MessageLookupByLibrary.simpleMessage("حذف الملاحظة"),
+        "delete_note_content": MessageLookupByLibrary.simpleMessage(
+            "هل أنت متأكد أنك تريد حذف الملاحظة؟"),
         "edit_note": MessageLookupByLibrary.simpleMessage("تحرير الملاحظة"),
         "language": MessageLookupByLibrary.simpleMessage("العربية"),
         "light_mode": MessageLookupByLibrary.simpleMessage("وضع الضوء"),
         "note_content": MessageLookupByLibrary.simpleMessage("محتوى الملاحظة"),
         "note_date": MessageLookupByLibrary.simpleMessage("تاريخ الملاحظة"),
-        "note_title": MessageLookupByLibrary.simpleMessage("عنوان الملاحظة")
+        "note_title": MessageLookupByLibrary.simpleMessage("عنوان الملاحظة"),
+        "ok_dialog": MessageLookupByLibrary.simpleMessage("موافق")
       };
 }
