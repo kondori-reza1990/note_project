@@ -13,7 +13,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          architecture: x64
+          architecture: x86_64
       - run: flutter pub get
 
       - run: pod repo update
